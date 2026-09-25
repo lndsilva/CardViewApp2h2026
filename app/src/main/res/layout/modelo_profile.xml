@@ -39,11 +39,31 @@
             android:textSize="20sp" />
 
         <ImageView
-            android:layout_alignParentEnd="true"
             android:id="@+id/imgPoints"
             android:layout_width="50dp"
             android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
             android:src="@drawable/points" />
+
+        <TextView
+            android:id="@+id/txtNumberProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:layout_alignParentEnd="true"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/txtNumberProfile"
+            android:id="@+id/txtRackProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rancking"
+            android:textColor="#fff"
+            android:textSize="20sp" />
     </RelativeLayout>
 
 
